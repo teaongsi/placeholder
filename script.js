@@ -1,7 +1,3 @@
-import { track } from '@vercel/analytics';
-
-track();
-
 function playAudio() {
     const volumeIcon = document.getElementById('icon');
 
