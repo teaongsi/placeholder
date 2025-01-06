@@ -8,5 +8,5 @@ function playAudio() {
 
     setTimeout(() => {
         volumeIcon.src = 'images/volume_up.svg';
-    }, 750);
+    },750);
 }
