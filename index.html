@@ -39,8 +39,11 @@
         </div>
     </div>
     <footer>
-        <p>&copy; {new Date().getFullYear()} Teaongsi Angdembe. All rights reserved.</p>
+        <p>&copy; <span id="year"></span> Teaongsi Angdembe. All rights reserved.</p>
     </footer>
+    <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
     <audio id="audio" src="sound\pronunciation.mp3"></audio>
     <script src="script.js"></script>
 </body>
